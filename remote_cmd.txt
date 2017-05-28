@@ -16,7 +16,7 @@ rpm -ivh http://mirrors.sohu.com/fedora-epel/6/x86_64/epel-release-6-8.noarch.rp
 yum install -y wget squid
 rm -rf /etc/squid/squid.conf
 
-wget -P /etc/squid/ -c https://github.com/LunacyZeus/mproxy-installer/raw/master/squid.conf
+wget -P /etc/squid/ -c https://github.com/LunacyZeus/JonaTo-Proxy/raw/master/squid.conf
 service squid  start
 chkconfig --level 345 squid on
 

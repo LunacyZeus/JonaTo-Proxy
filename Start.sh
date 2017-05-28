@@ -3,9 +3,9 @@ rpm -ivh http://mirrors.sohu.com/fedora-epel/6/x86_64/epel-release-6-8.noarch.rp
 yum install -y sshpass nano
 
 wget --no-check-certificate -N https://github.com/LunacyZeus/JonaTo-Proxy/raw/master/fssh.sh
-wget --no-check-certificate -N https://github.com/LunacyZeus/JonaTo-Proxy/blob/master/ip_list_servers.txt
-wget --no-check-certificate -N https://github.com/LunacyZeus/JonaTo-Proxy/blob/master/remote_cmd.txt
-wget --no-check-certificate -N https://github.com/LunacyZeus/JonaTo-Proxy/blob/master/userpass.sh
+wget --no-check-certificate -N https://github.com/LunacyZeus/JonaTo-Proxy/raw/master/ip_list_servers.txt
+wget --no-check-certificate -N https://github.com/LunacyZeus/JonaTo-Proxy/raw/master/remote_cmd.txt
+wget --no-check-certificate -N https://github.com/LunacyZeus/JonaTo-Proxy/raw/master/userpass.sh
 
 mkdir log
 mkdir tmp
